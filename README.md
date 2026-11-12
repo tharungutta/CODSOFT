@@ -1,140 +1,140 @@
-# CODSOFT -- Java Development Internship
+# CODSOFT – Java Development Internship
 
-A collection of Java console-based projects developed as part of my
-**CodSoft Java Development Internship**. These tasks demonstrate Core
-Java, problem-solving, object-oriented programming, and Java
-Collections.
+A collection of Java console-based projects developed as part of my **CodSoft Java Development Internship**. These projects demonstrate Core Java programming, problem-solving, object-oriented programming, and Java Collections.
 
 ## Internship Tasks
 
-  -----------------------------------------------------------------------
-  Task                    Project                 Description
-  ----------------------- ----------------------- -----------------------
-  1                       Number Game             Guess a randomly
-                                                  generated number with
-                                                  hints and a limited
-                                                  number of attempts.
+1. **Number Game** – Guess a randomly generated number with hints and a limited number of attempts.
 
-  2                       Student Grade           Calculate total marks,
-                          Calculator              average percentage,
-                                                  grade, and pass/fail
-                                                  result.
+2. **Student Grade Calculator** – Calculate total marks, average percentage, grade, and pass/fail result.
 
-  3                       ATM Interface           Simulate balance
-                                                  enquiry, deposits, and
-                                                  withdrawals with
-                                                  transaction validation.
+3. **ATM Interface** – Simulate balance enquiry, deposits, and withdrawals with transaction validation.
 
-  5                       Student Course          View courses, register
-                          Registration System     using a course code,
-                                                  and remove registered
-                                                  courses.
-  -----------------------------------------------------------------------
+5. **Student Course Registration System** – View available courses, register using a course code, and remove registered courses.
 
 ## Project Details
 
-### Task 1 -- Number Game
+### 1. Number Game
 
--   Generates a random number between 1 and 100.
--   Tells the user whether a guess is too high or too low.
--   Limits attempts and supports multiple rounds.
+- Generates a random number between 1 and 100.
+- Accepts guesses from the user.
+- Provides hints when a guess is too high or too low.
+- Limits the number of attempts per round.
+- Allows the user to play multiple rounds.
+- Displays the player's score.
 
-**Concepts:** `Random`, `Scanner`, loops, `if-else`, and `break`.
+**Java concepts:** `Random`, `Scanner`, loops, conditional statements, and `break`.
 
-### Task 2 -- Student Grade Calculator
+### 2. Student Grade Calculator
 
--   Accepts marks for multiple subjects.
--   Validates marks between 0 and 100.
--   Calculates total marks and average percentage.
--   Displays a grade and pass/fail result.
+- Accepts marks for multiple subjects.
+- Validates marks entered by the user.
+- Calculates total marks and average percentage.
+- Assigns a grade based on the average.
+- Displays the final result as pass or fail.
 
-**Concepts:** `Scanner`, `for` loop, conditional statements, arithmetic
-operations, and `printf`.
+**Java concepts:** `Scanner`, `for` loop, `if-else-if`, arithmetic operations, `double`, and `printf`.
 
-### Task 3 -- ATM Interface
+**Grade scale used in this implementation:**
 
--   Provides options to check balance, deposit, and withdraw.
--   Validates transaction amounts.
--   Prevents withdrawals when funds are insufficient.
+- A: 90% and above
+- B: 80% to below 90%
+- C: 70% to below 80%
+- D: 60% to below 70%
+- E: 40% to below 60%
+- F: Below 40%
 
-**Concepts:** classes, objects, constructors, encapsulation, methods,
-`switch`, and loops.
+### 3. ATM Interface
 
-### Task 5 -- Student Course Registration System
+- Displays an ATM menu.
+- Allows the user to check the account balance.
+- Supports depositing and withdrawing money.
+- Validates transaction amounts.
+- Prevents withdrawals when the balance is insufficient.
 
--   Displays available courses and remaining seats.
--   Registers a student using a course code.
--   Prevents duplicate registration and checks course capacity.
--   Allows registered courses to be removed.
+**Java concepts:** classes, objects, constructors, encapsulation, methods, `switch`, loops, and conditional statements.
 
-**Concepts:** classes, objects, constructors, `ArrayList`, loops, and
-conditional statements.
+**Initial sample balance:** Rs. 10,000.
 
-> **Note:** These are console-based learning projects. Data is stored in
-> memory and resets when the application closes; database persistence is
-> not included.
+### 5. Student Course Registration System
+
+- Displays available courses and remaining slots.
+- Allows a student to register using a course code.
+- Prevents duplicate registrations.
+- Checks course capacity before registration.
+- Allows students to remove registered courses.
+- Displays the courses registered by the student.
+
+**Java concepts:** classes, objects, constructors, `ArrayList`, loops, and conditional statements.
+
+**Note:** This is a console-based, single-student demonstration. Course and registration data are stored in memory and reset when the application closes. Database persistence is not included.
 
 ## Technologies Used
 
--   Java
--   JDK (Java Development Kit)
--   IntelliJ IDEA
--   Core Java and Object-Oriented Programming
+- **Programming Language:** Java
+- **Development Kit:** Java Development Kit (JDK)
+- **IDE:** IntelliJ IDEA
+- **Core Topics:** Object-Oriented Programming, loops, conditional statements, methods, and collections
 
 ## Suggested Repository Structure
 
-``` text
+```text
 CODSOFT/
+│
 ├── README.md
+│
 └── CODSOFT_TASKSNO/
     ├── Task1_NumberGame/
     │   └── NumberGame.java
+    │
     ├── Task2_StudentGradeCalculator/
     │   └── StudentGradeCalculator.java
+    │
     ├── Task3_ATMInterface/
     │   └── ATMInterface.java
+    │
     └── Task5_CourseRegistration/
         └── StudentCourseRegistration.java
 ```
 
-*Adjust the folder and file names above if your actual repository uses a
-different structure.*
+*Adjust the folder and file names in this example if your actual repository uses a different structure.*
 
 ## How to Run
 
-1.  Install a JDK.
-2.  Open the project in IntelliJ IDEA or another Java IDE.
-3.  Open the required `.java` file.
-4.  Run the class containing the `main()` method.
+1. Install a Java Development Kit (JDK).
+2. Clone or download this repository.
+3. Open the project in IntelliJ IDEA or another Java IDE.
+4. Open the folder containing the task's `.java` file.
+5. Run the class containing the `main()` method.
 
-You can also use a terminal from the directory containing the source
-file:
+You can also compile and run a Java file using the terminal. For example:
 
-``` bash
+```bash
 javac NumberGame.java
 java NumberGame
 ```
 
-Replace `NumberGame` with the class name of the task you want to run.
+Run these commands from the directory containing the source file. Replace `NumberGame` with the class name of the task you want to execute.
 
 ## Learning Outcomes
 
--   Practised Java input and output.
--   Used loops and conditional statements.
--   Created classes, objects, constructors, and methods.
--   Applied encapsulation.
--   Worked with `ArrayList`.
--   Built menu-driven console applications.
--   Improved problem-solving and input-validation skills.
+- Practised Java input and output operations.
+- Used loops and conditional statements.
+- Generated random numbers.
+- Created classes, objects, constructors, and methods.
+- Applied encapsulation in a simple application.
+- Used `ArrayList` to manage collections of objects.
+- Built menu-driven console applications.
+- Improved problem-solving and input-validation skills.
 
-## Internship
+## Internship Information
 
-**Organization:** CodSoft\
-**Program:** Java Development Internship
+- **Organization:** CodSoft
+- **Program:** Java Development Internship
+- **Repository:** CODSOFT
 
-These projects were completed for learning and practice as part of the
-internship tasks.
+These projects were developed for learning and practice as part of the CodSoft Java Development Internship tasks.
 
-------------------------------------------------------------------------
+---
 
 **Thank you for visiting my repository!**
